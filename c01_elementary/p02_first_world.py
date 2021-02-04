@@ -1,4 +1,4 @@
-# p02_first_world.py
+# First Word (simplified)
 #   Find the first word in a string
 #   (string)
 

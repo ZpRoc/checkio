@@ -1,4 +1,4 @@
-# p01_multiply.py
+# Multiply (Intro)
 #   Into mission. How to solve missions on CheckiO?
 #   (numbers)
 

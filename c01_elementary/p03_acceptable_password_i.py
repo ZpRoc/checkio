@@ -1,4 +1,4 @@
-# p03_acceptable_password_i.py
+# Acceptable Password I
 #   the length should be bigger than 6
 #   (string, bool)
 

@@ -1,4 +1,4 @@
-# p06_backward_string.py
+# Backward String
 #   Reverse a string
 #   (string)
 

@@ -1,4 +1,4 @@
-# p05_end_zeros.py
+# End Zeros
 #   How many zeros are at the end?
 #   (string)
 

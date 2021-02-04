@@ -1,4 +1,4 @@
-# p04_number_length.py
+# Number Length
 #   How many digits are in the given positive number?
 #   (string, numbers)
 

@@ -1,4 +1,4 @@
-# p07_remove_all_before.py
+# Remove All Before
 #   Remove all the elements before the given one from the array.
 #   (array, numbers)
 

@@ -1,4 +1,4 @@
-# p10_max_digit.py
+# Max Digit
 #   Which digit is the biggest?
 #   (string, numbers)
 

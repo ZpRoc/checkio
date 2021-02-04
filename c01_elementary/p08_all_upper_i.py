@@ -1,4 +1,4 @@
-# p08_all_upper_i.py
+# All Upper I
 #   Are all symbols in upper case?
 #   (string)
 
