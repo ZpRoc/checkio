@@ -1,7 +1,10 @@
+# ---------------------------------------------------------------- #
+
 # Acceptable Password I
 #   the length should be bigger than 6
 #   (string, bool)
 
+# ---------------------------------------------------------------- #
 
 # You are at the beginning of a password series. Every mission is 
 # based on the previous one. Going forward the missions will become 
@@ -14,10 +17,18 @@
 # Output: A bool.
 
 
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+
 def is_acceptable_password(password: str) -> bool:
     # your code here
     return True if len(password) > 6 else False
 
+
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 
 if __name__ == '__main__':
     print("Example:")
@@ -28,3 +39,4 @@ if __name__ == '__main__':
     assert is_acceptable_password('muchlonger') == True
     assert is_acceptable_password('ashort') == False
     print("Coding complete? Click 'Check' to earn cool rewards!")
+

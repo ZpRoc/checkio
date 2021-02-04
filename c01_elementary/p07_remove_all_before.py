@@ -1,7 +1,10 @@
+# ---------------------------------------------------------------- #
+
 # Remove All Before
 #   Remove all the elements before the given one from the array.
 #   (array, numbers)
 
+# ---------------------------------------------------------------- #
 
 # Not all of the elements are important. What you need to do here is 
 # to remove from the list all of the elements before the given one.
@@ -17,6 +20,10 @@
 # Output: Iterable (tuple, list, iterator ...).
 
 
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+
 from typing import Iterable
 
 
@@ -27,6 +34,10 @@ def remove_all_before(items: list, border: int) -> Iterable:
     except ValueError:
         return items
 
+
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 
 if __name__ == '__main__':
     print("Example:")
@@ -40,3 +51,4 @@ if __name__ == '__main__':
     assert list(remove_all_before([], 0)) == []
     assert list(remove_all_before([7, 7, 7, 7, 7, 7, 7, 7, 7], 7)) == [7, 7, 7, 7, 7, 7, 7, 7, 7]
     print("Coding complete? Click 'Check' to earn cool rewards!")
+

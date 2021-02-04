@@ -1,7 +1,10 @@
+# ---------------------------------------------------------------- #
+
 # Multiply (Intro)
 #   Into mission. How to solve missions on CheckiO?
 #   (numbers)
 
+# ---------------------------------------------------------------- #
 
 # This is an intro mission, the purpose of which is to explain how to 
 # solve missions on CheckiO and how to get the most out of solving them. 
@@ -16,10 +19,18 @@
 # Output: Int.
 
 
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+
 def mult_two(a, b):
     # your code here
     return a*b
 
+
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 
 if __name__ == '__main__':
     print("Example:")
@@ -29,3 +40,4 @@ if __name__ == '__main__':
     assert mult_two(3, 2) == 6
     assert mult_two(1, 0) == 0
     print("Coding complete? Click 'Check' to earn cool rewards!")
+

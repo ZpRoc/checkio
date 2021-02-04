@@ -1,13 +1,20 @@
+# ---------------------------------------------------------------- #
+
 # End Zeros
 #   How many zeros are at the end?
 #   (string)
 
+# ---------------------------------------------------------------- #
 
 # Try to find out how many zeros a given number has at the end.
 
 # Input: A positive Int
 # Output: An Int.
 
+
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 
 def end_zeros(num: int) -> int:
     # your code here
@@ -25,6 +32,10 @@ def end_zeros_1(num: int) -> int:
     return cnt
 
 
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
+
 if __name__ == '__main__':
     print("Example:")
     print(end_zeros(0))
@@ -37,3 +48,4 @@ if __name__ == '__main__':
     assert end_zeros(245) == 0
     assert end_zeros(100100) == 2
     print("Coding complete? Click 'Check' to earn cool rewards!")
+
