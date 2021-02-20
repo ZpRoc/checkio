@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Date and Time Converter
+#   You have to convert date and time into more readable format
+#   (Date, time, string)
 
 # ---------------------------------------------------------------- #
 

@@ -1,6 +1,9 @@
 # ---------------------------------------------------------------- #
 
-
+# Pawn Brotherhood
+#   "A pawn, when separated from his fellows, will seldom or never 
+#   make a fortune." - Francois-Andre Danican Philidor
+#   (Games, matrix, has-Hints)
 
 # ---------------------------------------------------------------- #
 

@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Non-unique Elements
+#   Trim an array down to its non-unique elements
+#   (Parsing, has-Hints)
 
 # ---------------------------------------------------------------- #
 
