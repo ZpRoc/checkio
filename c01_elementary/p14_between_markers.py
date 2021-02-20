@@ -2,7 +2,7 @@
 
 # Between Markers (simplified)
 #   find a substring between markers
-#   string
+#   (string)
 
 # ---------------------------------------------------------------- #
 
