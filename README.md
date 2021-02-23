@@ -87,11 +87,16 @@ sorted(items, key = lambda x: (-items.count(x), items.index(x)))
 ```
 
 
+### p16_sun_angle
 
+#### datetime.strptime
 
-
-
-
+```python
+from datetime import datetime
+times = datetime.strptime(time, '%H:%M')
+h     = times.hour
+m     = times.minute
+```
 
 
 
