@@ -29,7 +29,7 @@
 #### if 条件语句的简洁写法
 
 ```python
-flg = True if len(password) > 6 else False
+>>> flg = True if len(password) > 6 else False
 ```
 
 
@@ -38,9 +38,9 @@ flg = True if len(password) > 6 else False
 #### 多重排序
 
 ```python
-# 使用 key 进行控制，先选择最接近的，再选择数值小的
-# sorted() 也有相同的 key 参数
-index = min(values, key=lambda n: (abs(one - n), n))
+### 使用 key 进行控制，先选择最接近的，再选择数值小的
+### sorted() 也有相同的 key 参数
+>>> index = min(values, key=lambda n: (abs(one - n), n))
 ```
 
 
@@ -53,9 +53,10 @@ index = min(values, key=lambda n: (abs(one - n), n))
 #### list.join()
 
 ```python
-# list 的 join() 方法
-val = ['a', 'b', 'c']
-print(','.join(val))        # Output: 'a,b,c'
+### list 的 join() 方法
+>>> val = ['a', 'b', 'c']
+>>> print(','.join(val))
+a,b,c
 ```
 
 
@@ -64,7 +65,7 @@ print(','.join(val))        # Output: 'a,b,c'
 #### datetime
 
 ```python
-from datetime import datetime
+>>> from datetime import datetime
 ```
 
 
@@ -73,7 +74,7 @@ from datetime import datetime
 #### for 循环语句的简洁写法
 
 ```python
-sum([ch.isdigit() for ch in text])
+>>> sum([ch.isdigit() for ch in text])
 ```
 
 
@@ -82,8 +83,8 @@ sum([ch.isdigit() for ch in text])
 #### 多重排序 sorted()
 
 ```python
-# 先按照出现的次数的降序排列，再按照出现的位置的升序排列
-sorted(items, key = lambda x: (-items.count(x), items.index(x)))
+### 先按照出现的次数的降序排列，再按照出现的位置的升序排列
+>>> sorted(items, key = lambda x: (-items.count(x), items.index(x)))
 ```
 
 
@@ -92,14 +93,30 @@ sorted(items, key = lambda x: (-items.count(x), items.index(x)))
 #### datetime.strptime
 
 ```python
-from datetime import datetime
-times = datetime.strptime(time, '%H:%M')
-h     = times.hour
-m     = times.minute
+>>> from datetime import datetime
+>>> times = datetime.strptime(time, '%H:%M')
+>>> h     = times.hour
+>>> m     = times.minute
+```
+
+```python
+>>> from datetime import datetime
+>>> cday = datetime.strptime('2015-6-1 18:19:59', '%Y-%m-%d %H:%M:%S')
+>>> print(cday)
+2015-06-01 18:19:59
 ```
 
 
+### p19_date_and_time_converter
 
+#### datetime.strftime
+
+```python
+>>> from datetime import datetime
+>>> now = datetime.now()
+>>> print(now.strftime('%a, %b %d %H:%M'))
+Mon, May 05 16:28
+```
 
 
 
