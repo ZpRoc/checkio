@@ -90,7 +90,7 @@ a,b,c
 
 ### p16_sun_angle
 
-#### datetime.strptime
+#### datetime.strptime()
 
 ```python
 >>> from datetime import datetime
@@ -109,7 +109,7 @@ a,b,c
 
 ### p19_date_and_time_converter
 
-#### datetime.strftime
+#### datetime.strftime()
 
 ```python
 >>> from datetime import datetime
@@ -119,9 +119,14 @@ Mon, May 05 16:28
 ```
 
 
+### p20_morse_decoder
 
+#### str.capitalize()
 
-
+```python
+### 将字符串的第一个字母变成大写,其他字母变小写
+>>> str.capitalize()
+```
 
 
 
