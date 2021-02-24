@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Mathematically Lucky Tickets
+#   Determine whether a 6-digit number on a ticket is mathematically ‘lucky’ or not.
+#   (Numbers, math, Bool)
 
 # ---------------------------------------------------------------- #
 

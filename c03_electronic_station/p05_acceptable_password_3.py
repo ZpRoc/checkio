@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Acceptable Password III
+#   This mission will be unlocked after solving Acceptable Password II mission
+#   (String, Bool)
 
 # ---------------------------------------------------------------- #
 

@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Digits Multiplication
+#   How to work with numbers by non standard way.
+#   (Numbers, has-Hints, math)
 
 # ---------------------------------------------------------------- #
 
