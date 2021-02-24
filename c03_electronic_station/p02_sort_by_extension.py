@@ -29,7 +29,7 @@ from typing import List
 
 def sort_by_ext(files: List[str]) -> List[str]:
     # your code here
-    files.sort(key=lambda x: (x.rsplit('.',1)[1] if x.rsplit('.',1)[0] != '' else '', x.rsplit('.',1)[0]))
+    files.sort(key = lambda x: (x.rsplit('.', 1)[1] if x.rsplit('.', 1)[0] != '' else '', x.rsplit('.', 1)[0]))
     return files
 
 
