@@ -143,6 +143,66 @@ Mon, May 05 16:28
 ```
 
 
+### p04_acceptable_password_2
+
+#### any() & all()
+
+```python
+### any(): 如果不都为空、0、false，则返回 True
+###        如果  都为空、0、false，则返回 False
+
+>>>any(['a', 'b', 'c', 'd'])   # 列表list，元素都不为空或0
+True
+ 
+>>> any(['a', 'b', '', 'd'])   # 列表list，存在一个为空的元素
+True
+ 
+>>> any([0, '', False])        # 列表list,元素全为0,'',false
+False
+ 
+>>> any(('a', 'b', 'c', 'd'))  # 元组tuple，元素都不为空或0
+True
+ 
+>>> any(('a', 'b', '', 'd'))   # 元组tuple，存在一个为空的元素
+True
+ 
+>>> any((0, '', False))        # 元组tuple，元素全为0,'',false
+False
+  
+>>> any([]) # 空列表
+False
+ 
+>>> any(()) # 空元组
+False
+```
+
+```python
+### all(): 所有 iterable 的元素不为 0、''、False 或者 iterable 为空
+###        则 all(iterable) 返回 True，否则返回 False
+
+>>> all(['a', 'b', 'c', 'd'])  # 列表list，元素都不为空或0
+True
+>>> all(['a', 'b', '', 'd'])   # 列表list，存在一个为空的元素
+False
+>>> all([0, 1，2, 3])          # 列表list，存在一个为0的元素
+False
+   
+>>> all(('a', 'b', 'c', 'd'))  # 元组tuple，元素都不为空或0
+True
+>>> all(('a', 'b', '', 'd'))   # 元组tuple，存在一个为空的元素
+False
+>>> all((0, 1, 2, 3))          # 元组tuple，存在一个为0的元素
+False
+   
+>>> all([])             # 空列表
+True
+>>> all(())             # 空元组
+True
+```
+
+
+### 
+
 
 
 
