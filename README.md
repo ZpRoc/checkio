@@ -201,11 +201,17 @@ True
 ```
 
 
-### 
+### p07_acceptable_password_5
 
+#### in & not in
 
+```python
+### in, not in
 
-
+# 以下两句等价
+>>> str.count(ch) == 0
+>>> ch not in str
+```
 
 
 
