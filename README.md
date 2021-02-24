@@ -130,3 +130,28 @@ Mon, May 05 16:28
 
 
 
+## Electronic Station
+
+
+### p02_sort_by_extension
+
+#### str.lsplit() & str.rsplit()
+
+```python
+### 同 str.split()
+### 类似: str.strip(), str.lstrip(), str.rstrip()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
