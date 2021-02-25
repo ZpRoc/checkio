@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Determinant
+#   Put your math skills to the test and compute the determinant for a matrix.
+#   (Matrix, numbers)
 
 # ---------------------------------------------------------------- #
 

@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Disposable Teleports
+#   Write some code to help people navigate the teleporter maze.
+#   (Path, finding, geometry, numbers)
 
 # ---------------------------------------------------------------- #
 

@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Moore Neighbourhood
+#   "Neighbors, I'm on the fence about them." ― Jarod Kintz
+#   (Matrix, numbers, has-Hints)
 
 # ---------------------------------------------------------------- #
 

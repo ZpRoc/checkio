@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Find Enemy
+#   Find the distance and directions to an enemy in a HEX-grid.
+#   (Games, geometry, path, finding)
 
 # ---------------------------------------------------------------- #
 

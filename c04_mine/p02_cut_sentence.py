@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Cut Sentence
+#   Cut a sentence, so it becomes shorter than or equal to a given length.
+#   (Text, has-Hints, string)
 
 # ---------------------------------------------------------------- #
 

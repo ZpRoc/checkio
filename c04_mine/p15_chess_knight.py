@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Chess Knight
+#   Find all of the chessboard cells to which the Knight can move.
+#   (Games, list, path, finding)
 
 # ---------------------------------------------------------------- #
 

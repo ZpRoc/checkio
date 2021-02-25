@@ -1,6 +1,9 @@
 # ---------------------------------------------------------------- #
 
-
+# Currency Style
+#   Coding is fun. Heck you could do it too. Ever try that? Code away! 
+#   Krummy results? Interesting. Onto something else then!
+#   (Parsing, string)
 
 # ---------------------------------------------------------------- #
 

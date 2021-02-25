@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Fizz Buzz
+#   A word game used to the teach robots about division.
+#   (String, numbers, has-Hints, Bool)
 
 # ---------------------------------------------------------------- #
 

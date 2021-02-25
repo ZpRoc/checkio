@@ -1,6 +1,9 @@
 # ---------------------------------------------------------------- #
 
-
+# The Einstein Problem-Lite
+#   "We all know that light travels faster than sound. That's why certain 
+#   people appear bright until you hear them speak." ― Albert Einstein
+#   (Games, logic)
 
 # ---------------------------------------------------------------- #
 
