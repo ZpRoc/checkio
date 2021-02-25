@@ -214,6 +214,17 @@ True
 ```
 
 
+### p09_all_upper_2
+
+#### str.isupper() & str.islower()
+
+```python
+### str.isupper(): 判断字符串是否都是大写
+### str.islower(): 判断字符串是否都是小写
+```
+
+
+
 
 
 
