@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Capital City
+#   You have to use the Singleton design pattern and create the class Capital.
+#   (Oop)
 
 # ---------------------------------------------------------------- #
 

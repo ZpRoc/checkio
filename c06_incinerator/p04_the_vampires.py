@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# The Vampires
+#   This mission will be unlocked after solving The Defenders mission
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

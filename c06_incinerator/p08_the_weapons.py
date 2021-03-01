@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# The Weapons
+#   This mission will be unlocked after solving Straight Fight mission
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

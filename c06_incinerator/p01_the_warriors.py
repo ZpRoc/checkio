@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# The Warriors
+#   Create the warriors and make them fight each other in a duel!
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

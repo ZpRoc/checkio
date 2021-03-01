@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Army Battles
+#   This mission will be unlocked after solving The Warriors mission
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

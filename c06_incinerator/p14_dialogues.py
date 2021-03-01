@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Dialogues
+#   Create a mediator that allows the human and the robot to communicate and that can display dialogs.
+#   (Oop, text)
 
 # ---------------------------------------------------------------- #
 

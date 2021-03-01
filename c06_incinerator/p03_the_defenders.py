@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# The Defenders
+#   This mission will be unlocked after solving Army Battles mission
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

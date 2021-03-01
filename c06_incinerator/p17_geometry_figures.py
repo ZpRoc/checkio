@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Geometry Figures
+#   Try to count different parameters of the geometrical figures.
+#   (Oop, geometry)
 
 # ---------------------------------------------------------------- #
 

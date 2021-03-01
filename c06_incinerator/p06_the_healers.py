@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# The Healers
+#   This mission will be unlocked after solving The Lancers mission
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

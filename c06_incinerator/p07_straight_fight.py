@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Straight Fight
+#   This mission will be unlocked after solving The Healers mission
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

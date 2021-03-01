@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# The Lancers
+#   This mission will be unlocked after solving The Vampires mission
+#   (Games, oop, series)
 
 # ---------------------------------------------------------------- #
 

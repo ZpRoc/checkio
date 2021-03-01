@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# 3 Chefs
+#   Use the Absract Factory design pattern to create different classes for 3 Chefs.
+#   (Oop)
 
 # ---------------------------------------------------------------- #
 
