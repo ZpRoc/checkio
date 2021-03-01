@@ -41,12 +41,12 @@
 # ---------------------------------------------------------------- #
 
 class Warrior:
-    health   = 50
-    attack   = 5
-    is_alive = True
+    health = 50
+    attack = 5
 
-    def update(self):
-        self.is_alive = True if self.health > 0 else False
+    @property
+    def is_alive(self):
+        return True if self.health > 0 else False
 
 
 class Knight(Warrior):
@@ -58,11 +58,9 @@ def fight(unit_1, unit_2):
     while unit_1.is_alive and unit_2.is_alive:
         if move == 1:
             unit_2.health -= unit_1.attack
-            unit_2.update()
             move = 2
         elif move == 2:
             unit_1.health -= unit_2.attack
-            unit_1.update()
             move = 1
     return True if unit_1.is_alive else False
 
