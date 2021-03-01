@@ -239,11 +239,30 @@ True
 
 
 
+## Polygon
 
 
 
 
 
+
+
+
+
+## Incinerator
+
+
+### p01_the_warriors
+
+#### @property 装饰器
+
+```python
+### 通过 @property 装饰器，可以直接通过方法名来访问方法
+### 不需要在方法名后添加一对“（）”小括号。
+>>> @property
+>>> def 方法名(self)
+>>>     代码块
+```
 
 
 
