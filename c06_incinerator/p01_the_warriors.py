@@ -46,7 +46,7 @@ class Warrior:
 
     @property
     def is_alive(self):
-        return True if self.health > 0 else False
+        return self.health > 0
 
 
 class Knight(Warrior):
@@ -62,7 +62,7 @@ def fight(unit_1, unit_2):
         elif move == 2:
             unit_1.health -= unit_2.attack
             move = 1
-    return True if unit_1.is_alive else False
+    return unit_1.is_alive
 
 
 # ---------------------------------------------------------------- #
