@@ -262,6 +262,15 @@ True
 >>> @property
 >>> def 方法名(self)
 >>>     代码块
+
+### Example
+@property
+def health(self):
+    return self._health
+
+@health.setter
+def health(self, value):
+    self._health = value
 ```
 
 
