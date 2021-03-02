@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Calculate Islands
+#   Help the robots calculate the landmass of their newly discovered island chain.
+#   (Matrix, geometry)
 
 # ---------------------------------------------------------------- #
 

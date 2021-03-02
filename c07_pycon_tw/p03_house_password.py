@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# House Password
+#   Check the strength of your favorite password
+#   (Text, has-Hints, string)
 
 # ---------------------------------------------------------------- #
 

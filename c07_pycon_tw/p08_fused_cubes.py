@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Fused Cubes
+#   Calculate the volume of objects that combines cubes
+#   (Geometry, list, tuple, math)
 
 # ---------------------------------------------------------------- #
 

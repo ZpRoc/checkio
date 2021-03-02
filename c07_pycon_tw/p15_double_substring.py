@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Double Substring
+#   Find the length of the longest substring that repeats more than once.
+#   (Parsing, text, string)
 
 # ---------------------------------------------------------------- #
 

@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Sum Consecutives
+#   Sum strictly the identical and consecutive numbers in a given list of integers.
+#   (List)
 
 # ---------------------------------------------------------------- #
 

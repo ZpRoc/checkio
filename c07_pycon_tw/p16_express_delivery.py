@@ -1,6 +1,9 @@
 # ---------------------------------------------------------------- #
 
-
+# Express Delivery
+#   The magic boxes on this island enable quick cargo delivery across 
+#   the island. Stephen needs help calculating the delivery specifics.
+#   (Path, finding, string)
 
 # ---------------------------------------------------------------- #
 

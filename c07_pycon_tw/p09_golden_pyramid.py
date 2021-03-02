@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Golden Pyramid
+#   Help Stephen find the best route down a pyramid.
+#   (Numbers, has-Hints, math)
 
 # ---------------------------------------------------------------- #
 

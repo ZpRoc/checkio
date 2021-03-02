@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Ryerson Letter Grade
+#   Calculate the letter grade that would appear in the Ryerson's grade transcript.
+#   (Number, sparsing)
 
 # ---------------------------------------------------------------- #
 
