@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Determine the Order
+#   Find the pattern in an encoded message for the robots.
+#   (Text, cryptography, string)
 
 # ---------------------------------------------------------------- #
 

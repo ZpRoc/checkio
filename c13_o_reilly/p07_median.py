@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Median
+#   Find the mathematical median in a list of numbers
+#   (Numbers, statistics, has-Hints)
 
 # ---------------------------------------------------------------- #
 

@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Cipher Crossword
+#   Decipher the cipher crossword using your coding skills.
+#   (Text, encode-Decode, matrix)
 
 # ---------------------------------------------------------------- #
 

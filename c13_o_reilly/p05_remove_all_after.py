@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Remove All After
+#   Remove all the elements after the given one from array.
+#   (Array, numbers)
 
 # ---------------------------------------------------------------- #
 

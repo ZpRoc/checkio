@@ -1,6 +1,7 @@
 # ---------------------------------------------------------------- #
 
-
+# Lightbulb More
+#   The 5th argument of the function - how many light bulbs are needed to illuminate the room
 
 # ---------------------------------------------------------------- #
 

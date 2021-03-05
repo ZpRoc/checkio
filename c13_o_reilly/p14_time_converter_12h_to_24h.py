@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------- #
 
-
+# Time Converter (12h to 24h)
+#   Convert the time from the 12-hour format into 24-hour format.
+#   (Datetime, parsing)
 
 # ---------------------------------------------------------------- #
 
