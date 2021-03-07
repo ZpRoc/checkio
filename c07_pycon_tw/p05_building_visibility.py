@@ -38,14 +38,50 @@
 
 def checkio(buildings):
     #for example
-    first_building = {
-        'x_south_west': buildings[0][0],
-        'y_south_west': buildings[0][1],
-        'x_north_east': buildings[0][2],
-        'y_north_east': buildings[0][3],
-        'height': buildings[0][4],
-    }
-    return 0
+    # first_building = {
+    #     'x_south_west': buildings[0][0],
+    #     'y_south_west': buildings[0][1],
+    #     'x_north_east': buildings[0][2],
+    #     'y_north_east': buildings[0][3],
+    #     'height': buildings[0][4],
+    # }
+
+    ### Initialization
+    buildings = sorted(buildings, key = lambda x: [x[1], x[0]])
+    b_visible = [buildings[0]]
+
+    ### Loop
+    for b in buildings[1:]:
+        ### 筛选(高度小于等于已知建筑)且(位于已知建筑后面)的建筑的列
+        cols = []
+        for b_v in b_visible:
+            cols = sorted(cols)
+            if b[4] <= b_v[4] and b[1] >= b_v[3]:
+                cols.append([b_v[0], b_v[2]])   
+        
+        ### 去除重复列操作
+        cols = sorted(cols)
+        i    = 1
+        while i < len(cols):
+            if cols[i][0] >= cols[i-1][0] and cols[i][0] <= cols[i-1][1]:
+                cols[i-1][1] = max(cols[i][1], cols[i-1][1])
+                cols.pop(i)
+            else:
+                i += 1
+
+        ### 判断是否遮挡 [b[0], b[2]]
+        is_visible = True
+        for col in cols:
+            if b[0] >= col[0] and b[2] <= col[1]:
+                is_visible = False
+                break
+
+        ### 添加
+        if is_visible:
+            b_visible.append(b)
+
+    ### return
+    return len(b_visible)
 
 
 # ---------------------------------------------------------------- #
@@ -83,4 +119,10 @@ if __name__ == '__main__':
         [2, 2, 3, 3, 4],
         [2, 5, 3, 6, 4]
     ]) == 1, "Shadow"
+    assert checkio([
+        [1,1,3,3,20],
+        [3,4,5,6,20],
+        [5,1,7,3,20],
+        [1,7,7,9,20]
+    ]) == 3
 
