@@ -37,14 +37,23 @@
 # ---------------------------------------------------------------- #
 
 def checkio(buildings):
-    #for example
-    # first_building = {
-    #     'x_south_west': buildings[0][0],
-    #     'y_south_west': buildings[0][1],
-    #     'x_north_east': buildings[0][2],
-    #     'y_north_east': buildings[0][3],
-    #     'height': buildings[0][4],
-    # }
+    visible = 0
+    for building in buildings:
+        to_check = buildings.copy()
+        to_check.remove(building)
+        blocks = {i: False for i in range(building[0], building[2])}
+        for x in range(building[0], building[2]):
+            for check in to_check:
+                if x in range(check[0], check[2]) and building[1] > check[1] and building[-1] <= check[-1]:
+                    blocks[x] = True
+                    continue
+        if not all(blocks.values()):
+            visible += 1
+    return visible
+
+
+def checkio_1(buildings):
+    ### 该方法虽然复杂，但是可以兼容 [Xsw, Ysw, Xne, Yne] 坐标为浮点数的情况
 
     ### Initialization
     buildings = sorted(buildings, key = lambda x: [x[1], x[0]])
